@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Constructor</title>
+	<script type="text/javascript" src="assets/JS/javascript.js"></script>
+	<link rel="stylesheet" type="text/css" href="assets/CSS/style.css">
+	<!-- <link rel="stylesheet" type="text/css" href="assets/bootstrap/css/bootstrap.css"> -->
+</head>
+<body>
+	<!-- Container -->
+	<div id="container">
+		<!-- First Section -->
+		<div id="creator">
+			<h2 style="text-transform:uppercase;">Human Creator</h2>
+				<input type="text" name="fname" placeholder="Enter Name Here" id="oruko" required="required"> <br><br>
+				Gender:
+				<input type="radio" name="gender" id="m" onclick="Selector('m')">
+				 Male
+				<input type="radio" name="gender" id="f" onclick="Selector('f')">Female <br><br>
+				<input type="submit" name="" onclick="Humancreator()" value="Create">
+		</div>
+		<!-- Second Section -->
+		<div id="created">
+			<b style="position:relative;top:150px;">Human details will appear here once created</b>
+		</div>
+	</div>
+</body>
+</html>
