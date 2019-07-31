@@ -1,7 +1,7 @@
 // var gen;
 function Selector(gender) {
 	gen = gender;
-	created.innerHTML = "";
+	// created.innerHTML = "";
 }
 
 function Humancreator() {
